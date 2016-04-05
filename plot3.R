@@ -1,6 +1,6 @@
 # Tercera grafica (por grupo de submetering)
 
-dev.copy(png, file = "/Users/rodrigoguarneros/coursera/AssignmentCoueseProj1Graphics/plot3.png")
+dev.copy(png, file = "plot3.png")
 plot(PC2$DateTime, PC2$Sub_metering_1, type = "l", xlab = "", ylab = "Energy sub metering")
 points(PC2$DateTime, PC2$Sub_metering_2, type = "l", col = "red")
 points(PC2$DateTime, PC2$Sub_metering_3, type = "l", col = "blue")

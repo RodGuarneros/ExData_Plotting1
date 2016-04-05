@@ -2,7 +2,7 @@
 
 par(mfrow= c(2,2), mar = c(5,5,4,4))
 
-dev.copy(png, file = "/Users/rodrigoguarneros/coursera/AssignmentCoueseProj1Graphics/plot4.png")
+dev.copy(png, file = "plot4.png")
 with(PC2, plot(DateTime, Global_active_power, type = "l", ylab = "Global Active Power (kilowatts)"))
 title(main = "Plot 1.- Time Serie of Global Active Power")
 with(PC2, plot(DateTime, Voltage, type = "l", ylab = "Voltage"))
